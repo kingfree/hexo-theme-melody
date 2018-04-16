@@ -1,88 +1,41 @@
 # hexo-theme-melody
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Molunerfinn/hexo-theme-melody-doc/master/docs/imgs/logo.png">
-</p>
+原项目：<https://github.com/Molunerfinn/hexo-theme-melody>
 
-<p align="center">
-  <a href="https://standardjs.com" target="_blank"><img alt="JavaScript Style Guide" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square"></a>
-  <a href="" target="_blank"><img alt="license" src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square"></a>
-  <a href="https://hexo.io" target="_blank"><img alt="hexo-image" src="https://img.shields.io/badge/hexo-%3E%3D3.0-blue.svg?style=flat-square"></a>
-  <a href="https://github.com/Molunerfinn/hexo-theme-melody/releases/latest">
-    <img src="https://img.shields.io/github/release/Molunerfinn/hexo-theme-melody.svg?style=flat-square" alt="">
-  </a>
-</p>
+# 文档
 
-A simple & beautiful & fast theme for Hexo.
+文档参见[这里](https://molunerfinn.com/hexo-theme-melody-doc/)
 
-See demo:
+# 安装
 
-* [molunerfinn.com](https://molunerfinn.com)
-* [Elody's Blog](https://elody-07.github.io)
-* [zouyaoji's Blog](https://zouyaoji.top/)
-* [flytreeleft's Blog](https://flytreeleft.org/)
-* [StaunchKai](http://staunchkai.com/)
-* [Crystalwindz's Blog](http://crystalwindz.com/)
-* [霪霖笙箫的博客](https://fridolph.github.io/)
-* [upupming 的博客](https://upupming.site/)
-
-If you are using `theme-melody` and want to be shown to others like above, please write down your site in this [issue](https://github.com/Molunerfinn/hexo-theme-melody/issues/1)!
-
-# Documentation
-
-Documentation is [here](https://molunerfinn.com/hexo-theme-melody-doc/)
-
-# Screenshots
-
-![](https://raw.githubusercontent.com/Molunerfinn/hexo-theme-melody-doc/master/docs/imgs/index-page.png)
-![](https://raw.githubusercontent.com/Molunerfinn/hexo-theme-melody-doc/master/docs/imgs/archives.png)
-![](https://raw.githubusercontent.com/Molunerfinn/hexo-theme-melody-doc/master/docs/imgs/post.png)
-![](https://raw.githubusercontent.com/Molunerfinn/hexo-theme-melody-doc/master/docs/imgs/post-2.png)
-![](https://raw.githubusercontent.com/Molunerfinn/hexo-theme-melody-doc/master/docs/imgs/mobile.png)
-
-# Installation
-
-Find your hexo work folder
+找到 Hexo 工作目录：
 
 ```bash
-git clone -b master https://github.com/Molunerfinn/hexo-theme-melody themes/melody
+git clone -b master https://github.com/kingfree/hexo-theme-melody themes/melody
 ```
 
-If you don't have jade & stylus renderer, follow this:
+如果你没有安装 jade 和 stylus 的解析器：
 
 ```bash
 npm install hexo-renderer-jade hexo-renderer-stylus
 ```
 
-# Configuration
+# 配置
 
-For smoothly updating theme-melody, I recommand to create a config file named `melody.yml` in your hexo work folder's (**Notice: not the theme-melody folder**) `source/_data` folder(If it doesn't exist, create one)
+创建 `melody.yml` 到 (**注意：不是主题目录**) `source/_data` 目录下（如果不存在，创建一个）。
 
-Copy the contents of `_config.yml` to `melody.yml`. Now you can configure it by yourself and you can update theme-melody smoothly.
+把主题目录下 `_config.yml` 的内容复制到 `melody.yml`，编辑文件进行配置。
 
-# Update
+# 更新
 
-Jump into the melody folder, just `git pull` is OK.
+进入主题目录，`git pull` 即可。
 
-> For more details, please check [documentation](https://molunerfinn.com/hexo-theme-melody-doc/)
+> 更多细节请参考[文档](https://molunerfinn.com/hexo-theme-melody-doc/)。
 
-# Browser Support
+# 浏览器支持
 
 IE >= 10
 
-# TODOS
-
-* ~~Doc~~
-* ~~Search~~ // Algolia support
-* ~~Analysis~~ // Baidu & Google analytics support
-* ~~MathJax~~ // MathJax support
-* ~~i18n~~ // zh-Hans & en support
-* ~~PWA~~ // v1.2 support
-* Performance optimization
-* ...
-
-# License
+# 协议
 
 [MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2017 Molunerfinn
