@@ -10,7 +10,7 @@ $(function () {
       try {
         document.execCommand('copy') // Security exception may be thrown by some browsers.
         $(ctx).prev('.copy-notice')
-          .text(GLOBAL_CONFIG.copy.success)
+          .text(GLOBAL.copy.success)
           .velocity({
             translateX: -30,
             opacity: 1
@@ -21,7 +21,7 @@ $(function () {
           })
       } catch (ex) {
         $(ctx).prev('.copy-notice')
-          .text(GLOBAL_CONFIG.copy.error)
+          .text(GLOBAL.copy.error)
           .velocity({
             translateX: -30,
             opacity: 1
@@ -31,9 +31,9 @@ $(function () {
             easing: 'easeOutQuint'
           })
         return false
-      }
+      } 
     } else {
-      $(ctx).prev('.copy-notice').text(GLOBAL_CONFIG.copy.noSupport)
+      $(ctx).prev('.copy-notice').text(GLOBAL.copy.noSupport)
     }
   }
   // click events
